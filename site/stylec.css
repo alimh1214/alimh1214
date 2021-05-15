@@ -1,6 +1,6 @@
 body{
 
-	border: 5px solid black; 
+	border: 5px solid black;
 }
 
 
@@ -9,8 +9,9 @@ body > p1 , body > p2 {
 	color:black;
 	width: 50px;
 	height: 100px;
-	border: 5px solid black; 
-	
+	border: 5px solid black;
+	background-color: red;
+
 	overflow: scroll;
 	float:left;
 	clear: left;
@@ -20,8 +21,8 @@ body > p2 {
 	color:black;
 	width: 50px;
 	height: 100px;
-	border: 5px solid black; 
-	
+	border: 5px solid black;
+	background-color: red;
 	overflow: scroll;
 	float:right;
 }
