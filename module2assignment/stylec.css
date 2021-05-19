@@ -2,28 +2,34 @@ body{
 
 	border: 1px solid black;
 }
-.bottomofrow
-	{
-	clear:right;
-	clear:left;
-	}
+
 
 .name{
 	float: right;
 	color: black;
 	border: 1px solid black;
-	background-color: pink;
+	background-color: blue;
+
+	font-size: 125%;
 }
 .col{
 	float: left;
+	padding: 10px;
 	border: 1px solid black;
-	background-color: blue
+	background-color: pink;
+
+	
 
 }
 .top {
+
 	text-align:center;
 	font-size: xx-large;
 	background-color: purple;
+}
+p{
+
+	clear: right;
 }
 @media (min-width: 992px){
 
@@ -32,15 +38,13 @@ body{
 	.col {
 		
 		
-		width: 33%;
+		width: 33.333333%;
 		box-sizing: border-box;
 
 	}
-	.bottomofrow{
-		clear:right;
-		clear:left;
+
 	}
-}
+
 
 	
 
@@ -54,11 +58,7 @@ body{
 		box-sizing: border-box;
 
 	}
-	.bottomofrow{
-		clear:right;
-		clear:left;
-	}
-
+	
 	#bot{
 		width: 100%;
 		box-sizing: border-box;
